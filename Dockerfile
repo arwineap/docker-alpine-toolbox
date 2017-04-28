@@ -6,6 +6,7 @@ RUN apk add --no-cache \
          jq \
          git \
          ruby \
+         ruby-dev \
          ruby-bundler \
          ruby-json \
          openssh-client \
