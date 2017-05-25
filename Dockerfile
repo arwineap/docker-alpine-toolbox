@@ -13,4 +13,5 @@ RUN apk add --no-cache \
          expect \
          python3 \
          mariadb-dev \
+         build-base \
     && pip3 install awscli
