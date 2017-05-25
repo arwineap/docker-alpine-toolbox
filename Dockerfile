@@ -5,6 +5,7 @@ RUN apk add --no-cache \
          bash \
          jq \
          git \
+         netcat-openbsd \
          ruby \
          ruby-dev \
          ruby-bundler \
