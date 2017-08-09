@@ -15,4 +15,5 @@ RUN apk add --no-cache \
          python3 \
          mariadb-dev \
          build-base \
+         rsync \
     && pip3 install awscli
