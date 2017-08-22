@@ -12,7 +12,9 @@ RUN apk add --no-cache \
          ruby-json \
          openssh-client \
          expect \
+         python2 \
          python3 \
+         py2-pip \
          mariadb-dev \
          build-base \
          rsync \
