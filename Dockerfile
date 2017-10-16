@@ -18,4 +18,5 @@ RUN apk add --no-cache \
          mariadb-dev \
          build-base \
          rsync \
+         mysql-client \
     && pip3 install awscli
