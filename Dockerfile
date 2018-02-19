@@ -19,4 +19,5 @@ RUN apk add --no-cache \
          build-base \
          rsync \
          mysql-client \
+         openssl \
     && pip3 install awscli
