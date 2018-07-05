@@ -20,4 +20,5 @@ RUN apk add --no-cache \
          rsync \
          mysql-client \
          openssl \
-    && pip3 install awscli
+    && pip3 install awscli \
+    && gem install capistrano -v 3.6.1
