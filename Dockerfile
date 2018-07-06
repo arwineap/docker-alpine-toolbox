@@ -11,6 +11,7 @@ RUN apk add --no-cache \
          ruby-bundler \
          ruby-json \
          ruby-rdoc \
+         ruby-irb \
          openssh-client \
          expect \
          python2 \
