@@ -10,6 +10,7 @@ RUN apk add --no-cache \
          ruby-dev \
          ruby-bundler \
          ruby-json \
+         ruby-rdoc \
          openssh-client \
          expect \
          python2 \
