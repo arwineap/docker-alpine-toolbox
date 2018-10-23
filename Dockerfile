@@ -22,6 +22,7 @@ RUN apk add --no-cache \
          rsync \
          mysql-client \
          openssl \
+         openjdk8-jre \
     && pip3 install awscli \
     && gem install capistrano -v 3.6.1 \
     && curl https://raw.githubusercontent.com/wallix/awless/master/getawless.sh | bash
