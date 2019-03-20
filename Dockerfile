@@ -24,7 +24,7 @@ RUN apk add --no-cache \
          openssl \
          openjdk8-jre \
          bc \
-    && curl -o /usr/local/bin/listcompute https://github.com/arwineap/listcompute/releases/download/v1.1/listcompute_musl_amd64 \
+    && curl -L -o /usr/local/bin/listcompute https://github.com/arwineap/listcompute/releases/download/v1.1/listcompute_musl_amd64 \
     && chmod +x /usr/local/bin/listcompute \
     && pip3 install awscli \
     && gem install capistrano -v 3.6.1 \
