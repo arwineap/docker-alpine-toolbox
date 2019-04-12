@@ -21,6 +21,7 @@ RUN apk add --no-cache \
          build-base \
          rsync \
          mysql-client \
+         postgresql-client \
          openssl \
          openjdk8-jre \
          bc \
