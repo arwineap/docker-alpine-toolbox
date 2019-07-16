@@ -15,7 +15,9 @@ RUN apk add --no-cache \
          openssh-client \
          expect \
          python2 \
+         python2-dev \
          python3 \
+         python3-dev \
          py2-pip \
          mariadb-dev \
          build-base \
